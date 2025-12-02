@@ -1,5 +1,7 @@
 {
   "version": 2,
+  "buildCommand": "npm install && mkdir -p dist && echo 'Server deployment' > dist/.vercel-placeholder",
+  "outputDirectory": "dist",
   "installCommand": "npm install",
   "routes": [
     {
@@ -13,3 +15,4 @@
     }
   }
 }
+
