@@ -3,7 +3,7 @@
   "buildCommand": "npm install && mkdir -p dist && echo 'Server deployment' > dist/.vercel-placeholder",
   "outputDirectory": "dist",
   "installCommand": "npm install",
-  "startCommand": "node index.js",
+
   "routes": [
     {
       "src": "/(.*)",
@@ -16,4 +16,5 @@
     }
   }
 }
+
 
